@@ -1,0 +1,39 @@
+// Project initialize with node 
+npm init 
+
+==> if you need nodemon 
+npm i nodemon -g
+===> In your package.json file, add 
+    "start": "nodemon app.js",
+in script object
+===> Create app.js file in your project 
+    => Write express code
+
+
+HTTP Status Codes
+
+200 => success
+400 => request error
+    400 => bad request
+        e.g: email: hero@
+    
+    422 => unprocessable entity
+        username: hero@gmail.com
+
+Push notification
+    logical Codes
+        ....
+    event fire
+        ....
+    return
+listener
+push => code
+
+events => node default package
+bidirectional communication
+
+socket programming
+events 
+
+NODE 
+    REPL: read, evaluate, print, loop
